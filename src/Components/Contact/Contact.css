@@ -1,0 +1,178 @@
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0;
+}
+
+form {
+    width: 50%;
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -70px;
+}
+
+.contact h2 {
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #460080;
+    margin-bottom: -20px;
+}
+
+input {
+    background-color: transparent !important;
+    padding: 15px !important;
+    color: rgb(226, 226, 226) !important;
+    border: none !important;
+    border-bottom: 2px solid #9b37ff !important;
+    border-radius: 20px !important;
+    margin-top: 10px !important;
+}
+
+input:focus {
+    box-shadow: 0 20px 20px #9b37ff !important;
+}
+
+.name {
+    margin-top: 0 !important;
+}
+
+.name-span {
+    position: relative;
+    top: -45px;
+    right: -20px;
+    color: gray;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+.name:valid~.name-span,
+.name:focus~.name-span {
+    color: white;
+    position: relative;
+    top: -70px;
+    padding: 2px 8px;
+    background-color: rgb(20, 15, 15);
+    font-size: 15px;
+    border-left: 1px solid #9b37ff;
+    border-right: 1px solid #9b37ff;
+}
+
+.age-span {
+    position: relative;
+    top: -45px;
+    right: -20px;
+    color: gray;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+.age:valid~.age-span,
+.age:focus~.age-span {
+    color: white;
+    position: relative;
+    top: -70px;
+    padding: 2px 8px;
+    background-color: rgb(20, 15, 15);
+    font-size: 15px;
+    border-left: 1px solid #9b37ff;
+    border-right: 1px solid #9b37ff;
+}
+
+.email-span {
+    position: relative;
+    top: -45px;
+    right: -20px;
+    color: gray;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+.email:valid~.email-span,
+.email:focus~.email-span {
+    color: white;
+    position: relative;
+    top: -70px;
+    padding: 2px 8px;
+    background-color: rgb(20, 15, 15);
+    font-size: 15px;
+    border-left: 1px solid #9b37ff;
+    border-right: 1px solid #9b37ff;
+}
+
+.password-span {
+    position: relative;
+    top: -45px;
+    right: -20px;
+    color: gray;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+.password:valid~.password-span,
+.password:focus~.password-span {
+    color: white;
+    position: relative;
+    top: -70px;
+    padding: 2px 8px;
+    background-color: rgb(20, 15, 15);
+    font-size: 15px;
+    border-left: 1px solid #9b37ff;
+    border-right: 1px solid #9b37ff;
+}
+
+.contact button {
+    border: none;
+    width: 170px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    font-weight: bolder;
+    padding: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(88, 3, 128);
+    white-space: nowrap;
+}
+
+.contact button:hover {
+    color: gray;
+    background-color: rgb(129, 0, 189);
+    transform: translateY(-4px);
+    transition: transform 0.4s;
+}
+
+@media (max-width: 992px) {
+    form {
+        width: 80%;
+    }
+
+    input {
+        margin-top: 0 !important;
+    }
+
+    .contact button {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact h2 {
+        font-size: 50px;
+    }
+
+    form {
+        width: 90%;
+    }
+}

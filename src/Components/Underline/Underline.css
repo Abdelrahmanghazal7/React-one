@@ -1,0 +1,11 @@
+.underline {
+    width: 400px;
+    margin: -140px 0;
+}
+
+@media (max-width: 700px) {
+    .underline {
+        width: 300px;
+        margin: -100px 0;
+    }
+}

@@ -1,0 +1,18 @@
+.about {
+    height: 80vh;
+}
+
+.about h2 {
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #460080;
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width: 700px) {
+    .about h2 {
+        font-size: 50px;
+    }
+}

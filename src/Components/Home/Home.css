@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.head {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    .head {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .head {
+        width: 70%;
+    }
+}

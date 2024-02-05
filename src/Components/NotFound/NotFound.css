@@ -1,0 +1,17 @@
+.error-bg {
+    height: 100vh;
+}
+
+.error {
+    width: 80%;
+}
+
+@media (max-width: 800px) {
+    .error-bg {
+        height: 80vh;
+    }
+
+    .error {
+        width: 100%;
+    }
+}

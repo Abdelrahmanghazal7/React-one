@@ -1,0 +1,74 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px;
+}
+
+.portfolio h2 {
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #460080;
+    margin: 20px 0 -20px 0;
+}
+
+.portfolio .img-bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.portfolio .img-bg::after {
+    background-color: rgba(0, 0, 0, 0.789);
+    content: '\2718';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 90px;
+    color: blueviolet;
+    opacity: 0;
+    transition: .5s all;
+}
+
+.portfolio .img-bg:hover::after {
+    opacity: 1;
+    transition: .5s all;
+}
+
+#lightBoxContainer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#lightBox {
+    width: 800px !important;
+    height: 400px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio h2 {
+        font-size: 50px;
+    }
+}
