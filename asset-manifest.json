@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/React-one/static/css/main.67152440.css",
-    "main.js": "/React-one/static/js/main.d082dd8e.js",
-    "static/media/Head.png": "/React-one/static/media/Head.7575a1895a462e95a491.png",
-    "static/media/6.jpg": "/React-one/static/media/6.610694011a740d501f69.jpg",
-    "static/media/3.jpg": "/React-one/static/media/3.eb41ef00a57adc071041.jpg",
-    "static/media/1.jpg": "/React-one/static/media/1.778ab8bfa4a3227dc068.jpg",
-    "static/media/8.jpg": "/React-one/static/media/8.345891d937572c1afe91.jpg",
-    "static/media/9.jpg": "/React-one/static/media/9.6c26f2209641d864810b.jpg",
-    "static/media/underline.png": "/React-one/static/media/underline.8264450ad5835d926f73.png",
-    "static/media/2.jpg": "/React-one/static/media/2.07d8cbfefe9ea1fc7744.jpg",
-    "static/media/5.jpg": "/React-one/static/media/5.1c576898fa784825d7dc.jpg",
-    "static/media/4.jpg": "/React-one/static/media/4.1704311f9b562e892ce9.jpg",
-    "static/media/7.jpg": "/React-one/static/media/7.ac8db5c8b4e19914877a.jpg",
-    "static/media/Ghazal.png": "/React-one/static/media/Ghazal.a156febec0f5c4fb82d8.png",
-    "static/media/Error.png": "/React-one/static/media/Error.52d6fea71cfb32411afd.png",
-    "index.html": "/React-one/index.html",
-    "main.67152440.css.map": "/React-one/static/css/main.67152440.css.map",
-    "main.d082dd8e.js.map": "/React-one/static/js/main.d082dd8e.js.map"
+    "main.css": "/static/css/main.67152440.css",
+    "main.js": "/static/js/main.4d7177af.js",
+    "static/media/Head.png": "/static/media/Head.7575a1895a462e95a491.png",
+    "static/media/6.jpg": "/static/media/6.610694011a740d501f69.jpg",
+    "static/media/3.jpg": "/static/media/3.eb41ef00a57adc071041.jpg",
+    "static/media/1.jpg": "/static/media/1.778ab8bfa4a3227dc068.jpg",
+    "static/media/8.jpg": "/static/media/8.345891d937572c1afe91.jpg",
+    "static/media/9.jpg": "/static/media/9.6c26f2209641d864810b.jpg",
+    "static/media/underline.png": "/static/media/underline.8264450ad5835d926f73.png",
+    "static/media/2.jpg": "/static/media/2.07d8cbfefe9ea1fc7744.jpg",
+    "static/media/5.jpg": "/static/media/5.1c576898fa784825d7dc.jpg",
+    "static/media/4.jpg": "/static/media/4.1704311f9b562e892ce9.jpg",
+    "static/media/7.jpg": "/static/media/7.ac8db5c8b4e19914877a.jpg",
+    "static/media/Ghazal.png": "/static/media/Ghazal.a156febec0f5c4fb82d8.png",
+    "static/media/Error.png": "/static/media/Error.52d6fea71cfb32411afd.png",
+    "index.html": "/index.html",
+    "main.67152440.css.map": "/static/css/main.67152440.css.map",
+    "main.4d7177af.js.map": "/static/js/main.4d7177af.js.map"
   },
   "entrypoints": [
     "static/css/main.67152440.css",
-    "static/js/main.d082dd8e.js"
+    "static/js/main.4d7177af.js"
   ]
 }
